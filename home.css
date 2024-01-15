@@ -1,0 +1,125 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: linear-gradient(to right, #EC7357, #FF8556, #FFED84);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #EC7357; /* Adjusted to match the new color palette */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #FF8556; /* Adjusted to match the new color palette */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+#logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+#offer {
+    background-color: #FFED84; /* Adjusted to match the new color palette */
+    color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#offer h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#offer ul {
+    list-style: none;
+    padding: 0;
+}
+
+#offer li {
+    margin-bottom: 15px;
+}
+
+#offer li:before {
+    content: '\2022'; /* Bullet point character */
+    color: #FF8556; /* Adjusted to match the new color palette */
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+#offer li span {
+    font-weight: bold;
+}
+
+#offer p {
+    margin-top: 20px;
+}
+
+
+.images-container img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.bordered {
+    border: 2px solid #555;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.links-container {
+    margin-top: 20px;
+}
+
+.instagram-link {
+    background-color: #FF8556; /* Adjusted to match the new color palette */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #FFED84; /* Adjusted to match the new color palette */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
